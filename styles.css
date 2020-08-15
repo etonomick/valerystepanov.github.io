@@ -8,10 +8,18 @@ html, body {
 	height: 100%;
 }
 body {
+	transition-property: background-color, color;
+	transition-duration: 500ms;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-family: Helvetica, sans-serif;
+	background-color: #f8f8f2;
+	color: #282a36;
+}
+.dark {
+	background-color: #282a36;
+	color: #f8f8f2;
 }
 .content {
 	padding: 1em;
